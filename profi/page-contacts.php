@@ -21,17 +21,17 @@
 		</div>
 		<h2>Давайте дружить!</h2>
 		<div class="social-icons social-contact-page">
-			<a class="social-btn social-btn-vk" href="#">
+			<a class="social-btn social-btn-vk" rel="noopener" target="_blank" href="https://vk.com/club146177199">
 				<svg class="icon-vk">
 						<use xlink:href="#icon-vk"></use>
 				</svg>
 			</a>
-			<a class="social-btn social-btn-fb" href="#">
+			<a class="social-btn social-btn-fb" rel="noopener" target="_blank" href="https://www.facebook.com/studiyaModnyimanikyur">
 				<svg class="icon-facebook">
 						<use xlink:href="#icon-facebook"></use>
 				</svg>
 			</a>
-			<a class="social-btn social-btn-ig" href="#">
+			<a class="social-btn social-btn-ig" rel="noopener" target="_blank" href="https://www.instagram.com/podologi_school_donetsk/">
 				<svg class="icon-instagram">
 						<use xlink:href="#icon-instagram"></use>
 				</svg>

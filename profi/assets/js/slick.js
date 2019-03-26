@@ -12,7 +12,7 @@ jQuery(function($) {
          $('.modal-overlay').click(function(){
           elements.removeClass('active');
         });
-let width = window.innerWidth 
+var width = window.innerWidth 
 || document.documentElement.clientWidth
 || document.body.clientWidth;
       if (width < 1200) {

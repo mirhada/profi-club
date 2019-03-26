@@ -37,17 +37,17 @@
 				<p class="intro-text">В нашей студии Вас ждет коллектив профессиональных и талантливых мастеров, уютная атмосфера и широкий спектр услуг</p>
 				<button class="button btn-contact intro-button">Записаться</button>
 				<div class="social-icons">
-					<a class="social-btn social-btn-vk" href="#">
+					<a class="social-btn social-btn-vk" rel="noopener" target="_blank" href="https://vk.com/club117639535">
 						<svg class="icon-vk">
   							<use xlink:href="#icon-vk"></use>
 						</svg>
 					</a>
-					<a class="social-btn social-btn-fb" href="#">
+					<a class="social-btn social-btn-fb" rel="noopener" target="_blank" href="https://www.facebook.com/studiyaModnyimanikyur">
 						<svg class="icon-facebook">
   							<use xlink:href="#icon-facebook"></use>
 						</svg>
 					</a>
-					<a class="social-btn social-btn-ig" href="#">
+					<a class="social-btn social-btn-ig" rel="noopener" target="_blank" href="https://www.instagram.com/podologi_school_donetsk">
 						<svg class="icon-instagram">
   							<use xlink:href="#icon-instagram"></use>
 						</svg>
@@ -58,6 +58,7 @@
 
 		<section class="about">
 			<h2 class="about-title">Для Вас</h2>
+          	<div class="about-wrapper">
   			<div class="about-slider">
 					<div class="about-slider-item">
 						<svg class="serum">
@@ -102,6 +103,7 @@
 						<p class="about-item-content">Ускорим процесс по Вашей просьбе</p>
 					</div>
 				</div>
+              </div>
 		</section>  
 
 		<section id="works" class="works">
@@ -182,7 +184,7 @@
          				  <span class="price-lead-profi"><?php the_field('price-lead-profi'); ?></span>
          				  <span class="price-top-profi"><?php the_field('price-top-profi'); ?></span>
          				  <span class="price-profi"><?php the_field('price-profi'); ?></span> 
-         				  <span class="rubles">&#8381;</span>
+         				  <span class="rubles">Р</span>
          				  <?php the_content(); ?>
         				</div>
 								
@@ -220,7 +222,7 @@
          				  <span class="price-lead-profi"><?php the_field('price-lead-profi'); ?></span>
          				  <span class="price-top-profi"><?php the_field('price-top-profi'); ?></span>
          				  <span class="price-profi"><?php the_field('price-profi'); ?></span> 
-         				  <span class="rubles">&#8381;</span>
+         				  <span class="rubles">P</span>
          				  <?php the_content(); ?>
         				</div>
 								
@@ -258,7 +260,7 @@
          				  <span class="price-lead-profi"><?php the_field('price-lead-profi'); ?></span>
          				  <span class="price-top-profi"><?php the_field('price-top-profi'); ?></span>
          				  <span class="price-profi"><?php the_field('price-profi'); ?></span> 
-         				  <span class="rubles">&#8381;</span>
+         				  <span class="rubles">P</span>
          				  <?php the_content(); ?>
         				</div>
 								
@@ -295,7 +297,7 @@
          				  <span class="price-lead-profi"><?php the_field('price-lead-profi'); ?></span>
          				  <span class="price-top-profi"><?php the_field('price-top-profi'); ?></span>
          				  <span class="price-profi"><?php the_field('price-profi'); ?></span> 
-         				  <span class="rubles">&#8381;</span>
+         				  <span class="rubles">P</span>
          				  <?php the_content(); ?>
         				</div>
 								
@@ -332,7 +334,7 @@
          				  <span class="price-lead-profi"><?php the_field('price-lead-profi'); ?></span>
          				  <span class="price-top-profi"><?php the_field('price-top-profi'); ?></span>
          				  <span class="price-profi"><?php the_field('price-profi'); ?></span> 
-         				  <span class="rubles">&#8381;</span>
+         				  <span class="rubles">P</span>
          				  <?php the_content(); ?>
         				</div>
 								
@@ -369,7 +371,7 @@
          				  <span class="price-lead-profi"><?php the_field('price-lead-profi'); ?></span>
          				  <span class="price-top-profi"><?php the_field('price-top-profi'); ?></span>
          				  <span class="price-profi"><?php the_field('price-profi'); ?></span> 
-         				  <span class="rubles">&#8381;</span>
+         				  <span class="rubles">P</span>
          				  <?php the_content(); ?>
         				</div>
 								
@@ -386,6 +388,7 @@
 
 		<section class="team">
 			<h2 class="team-title">Наши Специалисты</h2>
+          	<div class="team-wrapper">
 			<div class="team-slider">
 				<?php 
         $args = array(
@@ -412,6 +415,7 @@
     wp_reset_postdata(); 
       ?>
 			</div>
+            </div>
 		</section>
 
 		<section class="sign">

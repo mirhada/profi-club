@@ -18,9 +18,9 @@
 				]); ?>
 			</nav>
 			<div class="social_icons-footer">
-					<a class="social-btn-vk" href="#">VK</a>
-					<a class="social-btn-fb" href="#">Facebook</a>
-					<a class="social-btn-ig" href="#">Instagram</a>
+					<a class="social-btn-vk" target="_blank" href="https://vk.com/club146177199">VK</a>
+					<a class="social-btn-fb" target="_blank" href="https://www.facebook.com/studiyaModnyimanikyur">Facebook</a>
+					<a class="social-btn-ig" target="_blank" href="https://www.instagram.com/podologi_school_donetsk/">Instagram</a>
 	  	</div>
 		</div>
 		<div class="copyright">

@@ -4,7 +4,7 @@
 	<meta charset="<?php bloginfo( 'charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Студия красоты "Profi club"</title>
-	<link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" > 
 	<?php wp_head(); ?>
 </head>

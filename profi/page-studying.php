@@ -7,17 +7,17 @@
 		Profi club
 	</h2>
 	<div class="social-icons social-icons-study">
-		<a class="social-btn social-btn-vk" href="#">
+		<a class="social-btn social-btn-vk" rel="noopener" target="_blank" href="https://vk.com/club146177199">
 			<svg class="icon-vk">
 					<use xlink:href="#icon-vk"></use>
 			</svg>
 		</a>
-		<a class="social-btn social-btn-fb" href="#">
+		<a class="social-btn social-btn-fb" rel="noopener" target="_blank" href="https://www.facebook.com/tsentrpodologiiPlanta/">
 			<svg class="icon-facebook">
 					<use xlink:href="#icon-facebook"></use>
 			</svg>
 		</a>
-		<a class="social-btn social-btn-ig" href="#">
+		<a class="social-btn social-btn-ig" rel="noopener" target="_blank" href="https://www.instagram.com/podologi_school_donetsk/">
 			<svg class="icon-instagram">
 					<use xlink:href="#icon-instagram"></use>
 			</svg>
@@ -57,7 +57,7 @@
 <section class="contact-study sign">
 	<p class="study-phone sign-text">Свяжитесь с нами, чтобы узнать больше об обучении в нашей школе</p>
 	<a href="tel.:+38<?php echo get_theme_mod('telephone3'); ?>" class="sign-text contact-study-link"><?php echo get_theme_mod('telephone3'); ?></a>
-	<a href="#" class="sign-text contact-study-link">Группа в ВК</a>
+	<a href="https://vk.com/kursypedicuremanikurekosmet" rel="noopener" target="_blank" class="sign-text contact-study-link">Группа в ВК</a>
 </section>
 
 <?php get_footer(); ?>
